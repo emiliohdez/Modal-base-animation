@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
-    <title>Bienvenido a FITMEET</title>
+    <title>Modal Test</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/reset.css"/>
@@ -13,17 +13,17 @@
 
     <div id="shadow-background"></div>
     <main>
-        <button onclick="showModal('modal-test')" type="button">modal</button>
+        <button onclick="showModal('modal-test')" type="button">Open modal</button>
     </main>
     <div id="modal-test" class="modal">
         <div class="content">
-            <button type="button" onclick="closeModal()">close</button>
-            <h1>holo</h1>
-            <p>njdksbafdsabfdjabfadj danbjkfd</p>
+            <button type="button" onclick="closeModal()">Close modal</button>
+            <h1>Modal title</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget maximus ipsum, id blandit erat</p>
         </div>
     </div>
     
-    <script src="js/jquery-3.5.1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script>
 
         function showModal(modalId){
