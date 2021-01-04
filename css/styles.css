@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  color: #32333c;
+}
+
+:root {
+  --primary-color: #124e73;
+  --secondary-color: #0b8cbf;
+  --accent-color: #0cf2f2;
+  --bright-color: #fbfbfd;
+  --dark-text: #3e3e3e;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bebas Neue", cursive;
+}
+
+p,
+a,
+button,
+label,
+i {
+  font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}

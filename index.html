@@ -1,0 +1,39 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
+    <title>Bienvenido a FITMEET</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/modal-styles.css"/>
+</head>
+<body>
+
+    <div id="shadow-background"></div>
+    <main>
+        <button onclick="showModal('modal-test')" type="button">modal</button>
+    </main>
+    <div id="modal-test" class="modal">
+        <div class="content">
+            <button type="button" onclick="closeModal()">close</button>
+            <h1>holo</h1>
+            <p>njdksbafdsabfdjabfadj danbjkfd</p>
+        </div>
+    </div>
+    
+    <script src="js/jquery-3.5.1.js"></script>
+    <script>
+
+        function showModal(modalId){
+            $("#shadow-background").addClass("visible");
+            $("#" + modalId).addClass("visible");
+        }
+        function closeModal(){
+            $(".modal").removeClass("visible");
+            $("#shadow-background").removeClass("visible");
+        }
+    </script>
+</body>
+</html>
